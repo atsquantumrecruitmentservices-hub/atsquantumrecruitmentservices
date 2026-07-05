@@ -800,6 +800,10 @@ h1{
         bottom: -350px;
     }
 }
+@media screen and (max-width: 445px)
+#pic1{
+     width: 425px;
+    }
 @media screen and (max-width: 434px){
     #pic1{
         width: 410px;
