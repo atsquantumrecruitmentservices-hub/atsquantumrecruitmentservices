@@ -1,0 +1,316 @@
+
+@media screen and (max-width: 1920px){
+#pic1{
+    height: 90px;
+    width: 800px;
+}
+#pic2, #pic3, #pic4, #pic5{
+    width: 800px;
+}
+}
+@media screen and (max-width: 1680px){
+#pic1{
+    height: 90px;
+    width: 750px;
+}
+}
+@media screen and (max-width: 1600px){
+#pic1{
+    height: 90px;
+    width: 750px;
+}
+#pic2, #pic3, #pic4, #pic5{
+    width: 800px;
+}
+}
+
+@media screen and (max-width: 1366px){
+#pic1{
+    height: 70px;
+    width: 650px;
+}
+#pic2, #pic3, #pic4, #pic5{
+    width: 750px;
+}
+}
+
+@media screen and (max-width: 800px){
+#pic1{
+    width: 600px;
+}
+#pic2, #pic3, #pic4, #pic5{
+    width: 700px;
+}
+}
+
+@media screen and (max-width: 720px){
+    #pic1{
+        width: 550px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 680px;
+    }
+}
+
+@media screen and (max-width: 705px){
+    #pic1{
+        width: 510px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 660px;
+    }
+}
+
+@media screen and (max-width: 682px){
+    #pic1{
+        width: 490px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 640px;
+    }
+}
+
+@media screen and (max-width: 662px){
+    #pic1{
+        width: 480px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 620px;
+    }
+}
+
+@media screen and (max-width: 643px){
+    #pic1{
+        width: 470px;
+        height: 50px
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 622px){
+    #pic1{
+        width: 460px;
+        height: 50px
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 580px;
+    }
+}
+
+@media screen and (max-width: 602px){
+    #pic1{
+        width: 450px;
+        height: 50px
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 560px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    #pic2, #pic3, #pic4, #pic5{
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 572px){
+    #pic1{
+        width: 430px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 520px;
+    }
+}
+
+@media screen and (max-width: 552px){
+    #pic1{
+        width: 410px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 535px){
+    #pic1{
+        width: 390px
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 529px){
+    #pic1{
+        width: 370px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 492px){
+    #pic1{
+        width: 360px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 471px){
+    #pic1{
+        width: 350px;
+        height: 40px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 453px){
+    #pic1{
+        width: 340px;
+        height: 40px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    #pic1{
+        width: 330px;
+        height: 40px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 390px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    #pic1{
+        width: 310px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 409px){
+    #pic1{
+        width: 300px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 393px){
+    #pic1{
+        width: 290px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 371px){
+    #pic1{
+        width: 280px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 320px;
+    }
+}
+
+@media screen and (max-width: 351px){
+    #pic1{
+        width: 270px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 330px){
+    #pic1{
+        width: 260px;
+        height: 37px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 312px){
+    #pic1{
+        width: 250px;
+        height: 37px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 289px){
+    #pic1{
+        width: 240px;
+        height: 37px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 272px){
+    #pic1{
+        width: 230px;
+        height: 37px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 252px){
+    #pic1{
+        width: 220px;
+        height: 35px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 230px){
+    #pic1{
+        width: 200px;
+        height: 35px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 209px){
+    #pic1{
+        width: 180px;
+        height: 30px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 190px){
+    #pic1{
+        width: 170px;
+        height: 30px;
+    }
+    #pic2, #pic3, #pic4, #pic5{
+        width: 140px;
+    }
+}

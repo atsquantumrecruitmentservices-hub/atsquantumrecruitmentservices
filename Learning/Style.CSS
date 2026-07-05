@@ -1,0 +1,592 @@
+@media screen and (max-width: 1920px){
+#pic{
+    width: 900px;
+    height: 90px;
+}
+#pic1, #pic2, #pic3, #pic4, #pic5{
+    width: 900px;
+    height: 520px;
+}
+#pic6, #pic7{
+    width: 900px;
+    height: 650px;
+}
+#pic8, #pic9, #pic10{
+    width: 900px;
+    height: 690px;
+}
+#pic11{
+    width: 900px;
+    height: 230px;
+}
+}
+
+@media screen and (max-width: 950px){
+    #pic{
+        width: 750px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 750px;
+        height: 450px;
+    }
+    #pic6, #pic7{
+        width: 750px;
+        height: 630px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 750px;
+        height: 620px;
+    }
+    #pic11{
+        width: 750px;
+        height: 230px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #pic{
+        width: 500px;
+        height: 60px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 600px;
+        height: 380px;
+    }
+    #pic6, #pic7{
+        width: 700px;
+        height: 540px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 700px;
+        height: 600px;
+    }
+    #pic11{
+        width: 700px;
+        height: 180px;
+    }
+    }
+
+@media screen and (max-width: 722px){
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 600px;
+        height: 380px;
+    }
+    #pic6, #pic7{
+        width: 680px;
+        height: 540px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 680px;
+        height: 600px;
+    }
+    #pic11{
+        width: 680px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 702px){
+    #pic6, #pic7{
+        width: 660px;
+        height: 520px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 660px;
+        height: 580px;
+    }
+    #pic11{
+        width: 660px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 682px){
+    #pic6, #pic7{
+        width: 640px;
+        height: 520px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 640px;
+        height: 580px;
+    }
+    #pic11{
+        width: 640px;
+        height: 180px;
+}
+}
+
+@media screen and (max-width: 663px){
+    #pic6, #pic7{
+        width: 620px;
+        height: 520px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 620px;
+        height: 580px;
+    }
+    #pic11{
+        width: 620px;
+        height: 180px;
+}
+}
+
+@media screen and (max-width: 642px){
+    #pic6, #pic7{
+        width: 600px;
+        height: 520px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 600px;
+        height: 520px;
+    }
+    #pic11{
+        width: 600px;
+        height: 180px;
+}
+}
+
+@media screen and (max-width: 622px){
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 580px;
+        height: 380px;
+    }
+    #pic6, #pic7{
+        width: 580px;
+        height: 520px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 580px;
+        height: 520px;
+    }
+    #pic11{
+        width: 580px;
+        height: 180px;
+}
+}
+
+@media screen and (max-width: 602px){
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 560px;
+        height: 380px;
+    }
+    #pic6, #pic7{
+        width: 570px;
+        height: 520px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 570px;
+        height: 540px;
+    }
+    #pic11{
+        width: 570px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 589px){
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 540px;
+        height: 380px;
+    }
+    #pic6, #pic7{
+        width: 550px;
+        height: 520px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 550px;
+        height: 540px;
+    }
+    #pic11{
+        width: 550px;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 572px){
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 520px;
+        height: 370px;
+    }
+    #pic6, #pic7{
+        width: 520px;
+        height: 480px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 520px;
+        height: 480px;
+    }
+    #pic11{
+        width: 520px;
+        height: 160px;
+    }
+}
+
+@media screen and (max-width: 540px){
+    #pic{
+        width: 480px;
+        height: 60px;
+    }
+
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 500px;
+        height: 360px;
+    }
+    #pic6, #pic7{
+        width: 500px;
+        height: 460px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 500px;
+        height: 460px;
+    }
+    #pic11{
+        width: 500px;
+        height: 155px;
+    }
+}
+
+@media screen and (max-width: 521px){
+    #pic{
+        width: 440px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 480px;
+        height: 360px;
+    }
+    #pic6, #pic7{
+        width: 480px;
+        height: 460px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 480px;
+        height: 460px;
+    }
+    #pic11{
+        width: 480px;
+        height: 155px;
+    }
+}
+
+@media screen and (max-width: 492px){
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 450px;
+        height: 340px;
+    }
+    #pic6, #pic7{
+        width: 450px;
+        height: 440px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 450px;
+        height: 440px;
+    }
+    #pic11{
+        width: 450px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 463px){
+    #pic{
+        width: 420px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 430px;
+        height: 320px;
+    }
+    #pic6, #pic7{
+        width: 430px;
+        height: 420px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 430px;
+        height: 420px;
+    }
+    #pic11{
+        width: 430px;
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 442px){
+    #pic{
+        width: 400px;
+        height: 50px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 410px;
+        height: 320px;
+    }
+    #pic6, #pic7{
+        width: 410px;
+        height: 420px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 410px;
+        height: 420px;
+    }
+    #pic11{
+        width: 410px;
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 421px){
+    #pic{
+        width: 380px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 390px;
+        height: 310px;
+    }
+    #pic6, #pic7{
+        width: 390px;
+        height: 410px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 390px;
+        height: 410px;
+    }
+    #pic11{
+        width: 390px;
+        height: 140px;
+    }
+}
+
+@media screen and (max-width: 415px){
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 370px;
+        height: 300px;
+    }
+    #pic6, #pic7{
+        width: 370px;
+        height: 400px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 370px;
+        height: 400px;
+    }
+    #pic11{
+        width: 370px;
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 407px){
+    #pic{
+        width: 360px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 395px){
+    #pic{
+        width: 360px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 340px;
+        height: 280px;
+    }
+    #pic6, #pic7{
+        width: 340px;
+        height: 380px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 340px;
+        height: 380px;
+    }
+    #pic11{
+        width: 340px;
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 386px){
+    #pic{
+        width: 320px;
+        height: 40px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 300px;
+        height: 270px;
+    }
+    #pic6, #pic7{
+        width: 300px;
+        height: 470px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 300px;
+        height: 470px;
+    }
+    #pic11{
+        width: 300px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 347px){
+    #pic{
+        width: 300px;
+        height: 40px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 280px;
+        height: 250px;
+    }
+    #pic6, #pic7{
+        width: 280px;
+        height: 350px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 280px;
+        height: 350px;
+    }
+    #pic11{
+        width: 280px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 324px){
+    #pic{
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 304px){
+    #pic{
+        width: 260px;
+        height: 30px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 260px;
+        height: 200px;
+    }
+    #pic6, #pic7{
+        width: 260px;
+        height: 300px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 260px;
+        height: 300px;
+    }
+    #pic11{
+        width: 260px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 295px){
+    #pic{
+        width: 240px;
+        height: 30px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 240px;
+        height: 200px;
+    }
+    #pic6, #pic7{
+        width: 240px;
+        height: 300px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 240px;
+        height: 300px;
+    }
+    #pic11{
+        width: 240px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 265px){
+    #pic{
+        width: 220px;
+        height: 30px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 220px;
+        height: 200px;
+    }
+    #pic6, #pic7{
+        width: 220px;
+        height: 300px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 220px;
+        height: 300px;
+    }
+    #pic11{
+        width: 220px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 249px){
+    #pic{
+        width: 200px;
+        height: 30px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 200px;
+        height: 190px;
+    }
+    #pic6, #pic7{
+        width: 200px;
+        height: 220px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 200px;
+        height: 220px;
+    }
+    #pic11{
+        width: 200px;
+        height: 90px;
+    }
+}
+
+@media screen and (max-width: 226px){
+    #pic{
+        width: 180px;
+        height: 25px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 180px;
+        height: 190px;
+    }
+    #pic6, #pic7{
+        width: 180px;
+        height: 220px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 180px;
+        height: 220px;
+    }
+    #pic11{
+        width: 180px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 204px){
+    #pic{
+        width: 160px;
+        height: 20px;
+    }
+    #pic1, #pic2, #pic3, #pic4, #pic5{
+        width: 160px;
+        height: 170px;
+    }
+    #pic6, #pic7{
+        width: 160px;
+        height: 190px;
+    }
+    #pic8, #pic9, #pic10{
+        width: 160px;
+        height: 190px;
+    }
+    #pic11{
+        width: 160px;
+        height: 70px;
+    }
+}
