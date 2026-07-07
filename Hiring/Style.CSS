@@ -1,0 +1,247 @@
+@media screen and (max-width: 1920px){
+#pic1{
+    width: 1100px;
+    height: 1500px;
+}
+}
+
+@media screen and (max-width: 1680px){
+#pic1{
+    height: 1400px;
+    width: 1100px;
+}
+}
+
+@media screen and (max-width: 1600px){
+#pic1{
+    height: 1400px;
+    width: 1000px;
+}
+}
+
+@media screen and (max-width: 1440px){
+#pic1{
+    height: 1350px;
+    width: 950px;
+}
+}
+
+@media screen and (max-width: 1400px){
+#pic1{
+    height: 1400PX;
+    width: 1050px;
+}
+}
+
+@media screen and (max-width: 1366px){
+#pic1{
+    height: 1200px;
+    width: 850px;
+}
+}
+
+@media screen and (max-width: 1360px){
+#pic1{
+    height: 1200px;
+    width: 850px;
+}
+}
+
+@media screen and (max-width: 1280px){
+#pic1{
+    height: 1300px;
+    width: 1000px;
+}
+}
+
+@media screen and (max-width: 1152px){
+#pic1{
+    height: 1300px;
+    width: 900px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+#pic1{
+    height: 1150px;
+    width: 800px;
+}
+}
+
+@media screen and (max-width: 950px){
+    #pic1{
+        width: 750px;
+    }
+}
+
+@media screen and (max-width: 800px){
+#pic1{
+    height: 950px;
+    width: 650px;
+}
+}
+
+@media screen and (max-width: 662px){
+    #pic1{
+        width: 630px;
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 643px){
+    #pic1{
+        width: 600px;
+}
+}
+
+@media screen and (max-width: 622px){
+    #pic1{
+        width: 580px;
+    }
+}
+
+@media screen and (max-width: 602px){
+    #pic1{
+        width: 560px;
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 582px){
+    #pic1{
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 560px){
+    #pic1{
+        width: 520px;
+        height: 700px;
+    }
+}
+
+@media screen and (max-width: 542px){
+    #pic1{
+        width: 500px;
+}
+}
+
+@media screen and (max-width: 522px){
+    #pic1{
+        width: 480px;
+        height: 680px;
+}
+}
+
+@media screen and (max-width: 502px){
+    #pic1{
+        width: 470px;
+    }
+}
+
+@media screen and (max-width: 498px){
+    #pic1{
+        width: 460px;   
+    }
+}
+
+@media screen and (max-width: 487px){
+    #pic1{
+        width: 440px;
+    }
+}
+
+@media screen and (max-width: 465px){
+    #pic1{
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    #pic1{
+        width: 400px;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    #pic1{
+        width: 380px;
+        height: 550px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #pic1{
+        width: 360px;
+        height: 510px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    #pic1{
+        width: 340px;
+        height: 480px;
+    }
+}
+
+@media Screen and (max-width: 363px){
+    #pic1{
+        width: 320px;
+    }
+} 
+
+@media screen and (max-width: 341px){
+    #pic1{
+        width: 300px;
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #pic1{
+        width: 280px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 301px){
+    #pic1{
+        width: 260px;
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 285px){
+    #pic1{
+        width: 240px;
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 267px){
+    #pic1{
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 241px){
+    #pic1{
+        width: 200px;
+        height: 270px;
+    }
+}
+
+@media screen and (max-width: 226px){
+    #pic1{
+        width: 180px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 204px){
+    #pic1{
+        width: 170px;
+        height: 220px;
+    }
+}
