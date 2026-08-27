@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Registration Form</title>
+    <link rel="stylesheet" href="Style.CSS">
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="form-title">Application Registration</h2>
+        <form id="regForm" onsubmit="return validateForm()">
+            
+            <!-- Full Name -->
+            <div class="form-group">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" class="form-control" placeholder="Enter your full name">
+                <span id="nameError" class="error-msg"></span>
+            </div>
+
+            <!-- Email Address -->
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" placeholder="name@example.com">
+                <span id="emailError" class="error-msg"></span>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" class="form-control" placeholder="10-digit mobile number">
+                <span id="phoneError" class="error-msg"></span>
+            </div>
+
+            <!-- Gender Selection -->
+            <div class="form-group">
+                <label>Gender</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="Male"> Male</label>
+                    <label><input type="radio" name="gender" value="Female"> Female</label>
+                    <label><input type="radio" name="gender" value="Other"> Other</label>
+                </div>
+                <span id="genderError" class="error-msg"></span>
+            </div>
+
+            <!-- Photo Upload with Preview -->
+            <div class="form-group">
+                <label for="photo">Upload Passport Photo</label>
+                <input type="file" id="photo" class="form-control" accept="image/*" onchange="previewImage(event)">
+                <div class="preview-container">
+                    <img id="preview-img" alt="Photo Preview">
+                </div>
+                <span id="photoError" class="error-msg"></span>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="submit-btn">Register Application</button>
+        </form>
+    </div>
+
+    <script>
+        /* JavaScript Validation and Preview Logic */
+        function previewImage(event) {
+            const reader = new FileReader();
+            const imagePreview = document.getElementById('preview-img');
+            const photoText = document.getElementById('photoText');
+            
+            if (event.target.files && event.target.files[0]) {
+                reader.onload = function(e) {
+                    imagePreview.src = e.target.result;
+                    imagePreview.style.display = 'block';
+                    photoText.style.display = 'none';
+                }
+                reader.readAsDataURL(event.target.files[0]);
+            }
+        }
+
+        function validateForm() {
+            let isValid = true;
+
+            // Clear previous errors
+            document.getElementById('nameError').innerText = '';
+            document.getElementById('emailError').innerText = '';
+            document.getElementById('phoneError').innerText = '';
+            document.getElementById('genderError').innerText = '';
+            document.getElementById('photoError').innerText = '';
+
+            // Get values
+            const name = document.getElementById('fullname').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const phone = document.getElementById('phone').value.trim();
+            const genderNode = document.querySelector('input[name="gender"]:checked');
+            const photo = document.getElementById('photo').value;
+
+            // Name check
+            if (name === '') {
+                document.getElementById('nameError').innerText = 'Name is required.';
+                isValid = false;
+            }
+
+            // Email check
+            const emailPattern = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
+            if (email === '') {
+                document.getElementById('emailError').innerText = 'Email is required.';
+                isValid = false;
+            } else if (!email.match(emailPattern)) {
+                document.getElementById('emailError').innerText = 'Enter a valid email address.';
+                isValid = false;
+            }
+
+            // Phone check
+            if (phone === '') {
+                document.getElementById('phoneError').innerText = 'Phone number is required.';
+                isValid = false;
+            } else if (phone.length < 10) {
+                document.getElementById('phoneError').innerText = 'Enter a valid 10-digit number.';
+                isValid = false;
+            }
+
+            // Gender check
+            if (!genderNode) {
+                document.getElementById('genderError').innerText = 'Please select a gender.';
+                isValid = false;
+            }
+
+            // Photo check
+            if (photo === '') {
+                document.getElementById('photoError').innerText = 'Passport photo upload is required.';
+                isValid = false;
+            }
+
+            if (isValid) {
+                alert('Application Form Successfully Validated and Submitted!');
+            }
+
+            return false; // Prevent real server submission reload for demo purposes
+        }
+    </script>
+</body>
+</html>
