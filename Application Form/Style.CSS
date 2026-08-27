@@ -1,12 +1,4 @@
 @media screen and (max-width: 1920px){
-    body {
-        background: #f0f2f5;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        padding: 20px;
-    }
     #container{
         background: #ffffff;
         justify-content: space-evenly;
