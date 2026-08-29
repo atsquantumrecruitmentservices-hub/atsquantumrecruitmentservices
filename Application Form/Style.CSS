@@ -1,0 +1,89 @@
+@media screen and (max-width: 1920px){
+    #container{
+        background: #ffffff;
+        width: 55%;
+        border-radius: 10px;
+    }
+}
+h2{
+    text-decoration: underline;
+}
+.container1{
+    text-align:left;
+    position: relative;
+    left: 25%;
+}
+label{
+    font-size: 19px;
+    color:rgb(73, 86, 202);
+}
+textarea{
+    width: 342px;
+    height: 15px;
+}
+ui{
+    position: relative;
+    left: 73px;
+}
+ce{
+    position: relative;
+    left: 234px;
+}
+P{
+    font-size: 19px;
+    color: rgb(73, 86, 202);
+}
+p1{
+    position: relative;
+    bottom: 10px;
+    color: rgb(73, 86, 202);
+}
+#box16{
+    position: relative;
+    left: 270px;
+    top: 10px;
+}
+hr{
+    position: relative;
+    right: 160px;
+    bottom: 15px;
+    width: 700px;
+}
+.container3{
+    position: relative;
+    bottom: 25px;
+}
+
+#box0{
+    position: relative;
+    left: 90px;
+/* Photo Upload Styling & Preview */
+form{
+    color:rgb(73, 86, 202);
+    font-size:19px;
+    position: relative;
+    right: 93px;
+    top: 50px;
+}
+#photo{
+    position: relative;
+    left: 231px;
+    top: 110px;
+}
+.preview-container {
+    position: relative;
+    left: 220px;
+    bottom: 45px;
+}
+#preview-img {
+    width: 108px;
+    height: 120px;
+    border-radius: 5%;
+    object-fit: cover;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
+
+
+

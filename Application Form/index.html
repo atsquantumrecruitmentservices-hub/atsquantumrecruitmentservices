@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="Style.CSS">
+</head>
+<body>
+    <center><div id="container"><span style="color:rgb(73, 86, 202);">
+    
+    <h2>(ATS Quantum Recruitment Services - Joining Enroll Form)</h2></span>
+    
+  <div class="container1">
+    <div id="box0">
+        <div class="form-group">
+            <form>First Upload Applicant Photo:</form>
+            <input type="file" id="photo" class="form-control" accept="image/*" onchange="previewImage(event)">
+            <div class="preview-container">
+                <img id="preview-img" alt="Upload-Photo">
+            </div>
+            <span id="photoError" class="error-msg"></span>
+        </div>
+        <script>
+            /* JavaScript Validation and Preview Logic */
+            function previewImage(event) {
+                const reader = new FileReader();
+                const imagePreview = document.getElementById('preview-img');
+                const photoText = document.getElementById('photoText');
+                
+                if (event.target.files && event.target.files[0]) {
+                    reader.onload = function(e) {
+                        imagePreview.src = e.target.result;
+                        imagePreview.style.display = 'block';
+                        photoText.style.display = 'none';
+                    }
+                    reader.readAsDataURL(event.target.files[0]);
+                }
+            }
+        </script>
+    </div>
+
+    <div class="container2"></div>
+    
+    <div id="box1">
+    <label for="">Name:</lable>
+    <input type="First Name" placeholder="First Name" required>
+    <label for=""></lable>
+    <input type="Last Name" placeholder="Last Name" required>
+    </div><br><br>
+    
+    <div id="box2">
+    <label for="">Date of Birth:</lable>
+    <input type="Day" placeholder="Day" required>
+    <label for=""></lable>
+    <input type="Month" placeholder="Month, Year" required>
+    </div><br><br>
+    
+    <div id="box3">
+    <label for="">Gender:</lable>
+    <input type="checkbox">male
+    <input type="checkbox">female
+    </div><br><br>
+
+    <div id="box4">
+    <label for="">Phone Number:</lable>
+    <input type="" placeholder="" requrired>
+    </div><br><br>
+
+    <div id="box5">
+    <label for="">Of Which Country are you a Citizen?:</lable>
+    <input type="" placeholder="" required>
+    </div><br><br>
+       
+    <div id="box6">
+    <label for="">Your E-Mail Id:</lable>
+    <textarea></textarea>
+    </div><br><br>
+    
+    <div id="box7">
+    <label for="">Cast:</lable>
+    <input type="checkbox">OC
+    <input type="checkbox">ST
+    <input type="checkbox">BC
+    <input type="checkbox">OBC
+    </div><br><br>
+    
+    <div id="box8">
+    <label for="">Language Known:</lable>
+    <input type="checkbox">English
+    <input type="checkbox">Hindi
+    <input type="checkbox">Telugu
+    <input type="checkbox">Urdu
+    <input type="checkbox">Others 
+    </div><br><br>
+    
+    <div id="box9">
+    <label for="">Address:</lable>
+    <label for=""></label>
+    <input type="Home/Office" placeholder="Home/Office" required>
+    <label for=""></label>
+    <input type="Street" placeholder="Street" required><br><br>
+    <label for=""></label>
+    <ui>
+    <input type="Area" placeholder="Area" required>
+    <lable for=""></lable>
+    <input type="City" placeholder="City" required><br><br>
+    <lable for=""></lable>
+    <input type="State" Placeholder="State" required>
+    <label for=""></label>
+    <input type="PinCode" Placeholder="PinCode" required>
+    </ui>
+    </div><br><br>
+
+    <div id="box10">
+        <label for="">Your Education Qualification:</lable>
+        <input type="checkbox">B.Tech
+        <input type="checkbox">M.Tech
+        <input type="checkbox">Degree<br>
+        <ce>
+        <input type="checkbox">PG
+        <input type="checkbox">Nursing
+        <input type="checkbox">Others
+        </ce>
+    </div><br><br>
+
+    <div id="box11">
+        <label for="">Which Course You have to Learn?:</lable>
+        <input type="" placeholder="" requrired>
+    </div><br><br>
+     
+    <div id="box12">
+    <label for="">Are You Fresher Now?:</lable>
+    <input type="checkbox">Yes
+    <input type="checkbox">No
+    </div><br><br>
+    
+    <div id="box13">
+    <label for="">Are You Experience in any job?:</lable>
+    <input type="checkbox">Yes
+    <input type="checkbox">No
+    </div><br><br>
+    
+    <div id="box14">
+    <label for="">Now Have You do any Job?:</lable>
+    <input type="checkbox">Yes
+    <input type="checkbox">No
+    </div><br><br>
+    
+    <div id="box15">
+    <label for="">Are you willing to join this consultancy and take training?</lable>
+    <input type="checkbox">Yes
+    <input type="checkbox">No
+    </div><br><br>
+    
+    
+    <div class="container3">
+    <div id="box16">
+    <input type="checkbox">
+    </div>
+    <p>I certify that the information provided in this
+    application is accurate and<br> complete. I understand that providing
+    false information may result in<br> disqualification from consideration
+    for employment.</p><br></div> 
+
+    <p1>This "Application Form" fill online carefully after get perfect corner shape take "Screen Short" (or) Right click to<br> choose print option click then Save in "PDF File". After
+        send to "Company Email ID" given in Company Profile.</p1>
+    
+        <hr>
+
+    </div>
+</div></center>
+</span>
+</body>
+</html>
+
