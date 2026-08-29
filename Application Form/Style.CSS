@@ -1,0 +1,147 @@
+@media screen and (max-width: 1920px){
+    #container{
+        background: #ffffff;
+        width: 1500px;
+        border-radius: 10px;
+    }
+}
+h2{
+    text-decoration: underline;
+}
+.container1{
+    position: relative;
+    left: 10px;
+}
+label{
+    font-size: 19px;
+    color:rgb(73, 86, 202);
+}
+textarea{
+    width: 342px;
+    height: 15px;
+}
+ui{
+    position: relative;
+    left: 36px;
+}
+p1{
+    position: relative;
+    bottom: 20px;
+    color: rgb(73, 86, 202);
+}
+
+hr{
+    position: relative;
+    bottom: 15px;
+    width: 700px;
+}
+
+#box1{
+    position: relative;
+    right: 43px;
+}
+#box2{
+    position: relative;
+    right: 29px;
+}
+#box3{
+    position: relative;
+    right: 150px;
+}
+#box4{
+    position: relative;
+    right: 100px;
+}
+#box5{
+    position: relative;
+    right: 14px;
+}
+#box6{
+    position: relative;
+    right: 12px;
+}
+#box7{
+    position: relative;
+    right: 124px;
+}
+#box8{
+    position: relative;
+    left: 3px;
+}
+#box9{
+    position: relative;
+    right: 34px;
+}
+#box10{
+    position: relative;
+    left: 10px;
+}
+#box11{
+    position: relative;
+    right: 25px;
+}
+#box12{
+    position: relative;
+    right: 109px;
+}
+#box13{
+    position: relative;
+    right: 75px;
+}
+#box14{
+    position: relative;
+    right: 91px;
+}
+#box15{
+    position: relative;
+    left: 22px;
+}
+#box16{
+    position: relative;
+    top: 13px;
+    left: 33px;
+}
+p{
+    position: relative;
+    left: 23px;
+    font-size: 19px;
+    color: rgb(73, 86, 202);
+}
+.container3{
+    position: relative;
+    bottom: 20px;
+}
+
+#box0{
+    position: relative;
+    right: 43px;
+/* Photo Upload Styling & Preview */
+form{
+    color:rgb(73, 86, 202);
+    font-size:19px;
+    position: relative;
+    right: 93px;
+    top: 50px;
+}
+#photo{
+    position: relative;
+    left: 231px;
+    top: 110px;
+}
+.preview-container {
+    position: relative;
+    left: 148px;
+    bottom: 45px;
+}
+#preview-img {
+    width: 108px;
+    height: 120px;
+    border-radius: 5%;
+    object-fit: cover;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
+
+
+
