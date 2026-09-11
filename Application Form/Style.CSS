@@ -1,0 +1,286 @@
+
+#pic1{
+    width: 603px;
+    height: 60px;
+    position: relative;
+    right: 3px;
+    
+}
+#mixed1{
+    position: relative;
+    top: 10px;
+    width: 700px;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+}
+#mixed2{
+    width: 700px;
+    text-align: center;
+    justify-content: space-evenly;
+    position: relative;
+    right: -10px;
+    top: 30px;
+}
+
+label{
+    font-size: 19px;
+    color:rgb(73, 86, 202);
+}
+ce{
+    position: relative;
+    left: -64px;
+}
+P{
+    position: relative; 
+    font-size: 19px;
+    color: rgb(73, 86, 202);
+}
+li{
+    position: relative;
+    bottom: 120px;
+    color: rgb(236, 5, 63);
+}
+hr{
+    position: relative;
+    bottom: 120px;
+}
+#box23{
+    position: relative;
+    top: 10px;
+}
+.container1{
+    position: relative;
+    bottom: 20px;
+}
+
+/* Photo Upload Styling & Preview */
+.container2{
+    position: relative;
+    left: 75px;
+}
+#box24{
+    position: relative;
+    left: 15px;
+    bottom: -10px;
+#button{
+    position: relative;
+    right: 166px;
+    top: 45px;
+}
+.preview-dabba {
+    position: relative;
+    left: 10px;
+    bottom: 45px;
+}
+#preview-Photo {
+    width: 175px;
+    height: 60px;
+    border-radius: 5%;
+    object-fit: cover;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
+
+#box25{
+    position: relative;
+    left: 150px;
+    bottom: 110px;
+#photo{
+    position: relative;
+    right: -49px;
+    top: 104px;
+}
+.preview-container {
+    position: relative;
+    left: 260px;
+    bottom: 45px;
+}
+#preview-img {
+    width: 108px;
+    height: 120px;
+    border-radius: 5%;
+    object-fit: cover;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
+
+h3{
+    position: relative;
+    bottom: 120px;
+}
+#box26{
+    Position: relative;
+    bottom: 90px;
+#button-1{
+    position: relative;
+    left: 80px;
+    top: -48px;
+}
+.preview-dabba1 {
+    position: relative;
+    bottom: 40px;
+}
+#preview-Photo1 {
+    width: 700px;
+    height: 950px;
+    border-radius: 1%;
+    object-fit: fill;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
+
+#box27{
+    Position: relative;
+    bottom: -100px;
+#button-2{
+    position: relative;
+    right: -80px;
+    top: -10px;
+}
+.preview-dabba2 {
+    position: relative;
+    bottom: 1px;
+}
+#preview-Photo2 {
+    width: 700px;
+    height: 1000px;
+    border-radius: 1%;
+    object-fit: fill;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
+
+#box28{
+#button-3{
+    position: relative;
+    right: -80px;
+    top: 170px;
+}
+.preview-dabba3 {
+    position: relative;
+    bottom: -180px;
+}
+#preview-Photo3 {
+    width: 700px;
+    height: 1000px;
+    border-radius: 1%;
+    object-fit: fill;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
+
+#box29{
+    position: relative;
+    top: 80px;
+#button-4{
+    position: relative;
+    right: -80px;
+    top: 170px;
+}
+.preview-dabba4 {
+    position: relative;
+    bottom: -180px;
+}
+#preview-Photo4 {
+    width: 700px;
+    height: 1000px;
+    border-radius: 1%;
+    object-fit: fill;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
+
+#box30{
+    position: relative;
+    top: 130px;
+#button-5{
+    position: relative;
+    right: -80px;
+    top: 170px;
+}
+.preview-dabba5 {
+    position: relative;
+    bottom: -180px;
+}
+#preview-Photo5 {
+    width: 700px;
+    height: 1000px;
+    border-radius: 1%;
+    object-fit: fill;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
+
+#box31{
+    position: relative;
+    top: 210px;
+#button-6{
+    position: relative;
+    right: -80px;
+    top: 170px;
+}
+.preview-dabba6 {
+    position: relative;
+    bottom: -180px;
+}
+#preview-Photo6 {
+    width: 700px;
+    height: 1000px;
+    border-radius: 1%;
+    object-fit: fill;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
+
+#box32{
+    position: relative;
+    top: 280px;
+#button-7{
+    position: relative;
+    right: -80px;
+    top: 170px;
+}
+.preview-dabba7 {
+    position: relative;
+    bottom: -180px;
+}
+#preview-Photo7 {
+    width: 700px;
+    height: 950px;
+    border-radius: 1%;
+    object-fit: fill;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
+
+#box33{
+    position: relative;
+    top: 350px;
+#button-8{
+    position: relative;
+    right: -80px;
+    top: 170px;
+}
+.preview-dabba8{
+    position: relative;
+    bottom: -180px;
+}
+#preview-Photo8{
+    width: 700px;
+    height: 950px;
+    border-radius: 1%;
+    object-fit: fill;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
