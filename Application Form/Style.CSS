@@ -1,0 +1,153 @@
+
+#pic1{
+    width: 603px;
+    height: 60px;
+    position: relative;
+    right: 3px;
+    
+}
+#mixed1{
+    position: relative;
+    top: 10px;
+    width: 750px;
+    justify-content: space-evenly;
+    text-align: center;
+    position: relative;
+}
+#mixed2{
+    width: 750px;
+    text-align: center;
+    justify-content: space-evenly;
+    position: relative;
+    left: 20px;
+    top: 30px;
+}
+
+label{
+    font-size: 19px;
+    color:rgb(73, 86, 202);
+}
+ce{
+    position: relative;
+    left: -64px;
+}
+P{
+    position: relative; 
+    font-size: 19px;
+    color: rgb(73, 86, 202);
+}
+li{
+    position: relative;
+    bottom: 70px;
+    color: rgb(236, 5, 63);
+}
+ui{
+    text-decoration: underline;
+    position: relative;
+    top: 550px;
+    color: rgb(236, 5, 63);
+}
+hr{
+    position: relative;
+    bottom: 70px;
+}
+#box23{
+    position: relative;
+    top: 10px;
+}
+.container1{
+    position: relative;
+    bottom: 20px;
+}
+
+/* Photo Upload Styling & Preview */
+#box24{
+    position: relative;
+    left: 250px;
+    bottom: -5px;
+c{
+    font-size: 19px;
+    position: relative;
+    top: 30px;
+    right: 395px;
+}
+#photo{
+    position: relative;
+    right: -25px;
+    top: 104px;
+}
+.preview-container {
+    position: relative;
+    left: 260px;
+    bottom: 45px;
+}
+#preview-img {
+    width: 108px;
+    height: 120px;
+    border-radius: 5%;
+    object-fit: cover;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
+
+.container2{
+    position: relative;
+    left: 75px;
+}
+#box25{
+    position: relative;
+    left: 15px;
+    bottom: -30px;
+d{
+    position: relative;
+    right: 280px;
+    top: 40px;
+}
+#button{
+    position: relative;
+    right: 195px;
+    top: 45px;
+}
+.preview-dabba {
+    position: relative;
+    left: 5px;
+    bottom: 45px;
+}
+#preview-Photo {
+    width: 175px;
+    height: 60px;
+    border-radius: 5%;
+    object-fit: cover;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
+
+#box26{
+    Position: relative;
+    bottom: 90px;
+e{
+    position: relative;
+    left: 115px;
+    top: 75px;
+}
+#button-1{
+    position: relative;
+    left: 50px;
+    top: -48px;
+}
+.preview-dabba1 {
+    position: relative;
+    left: 400px;
+    bottom: 9px;
+}
+#preview-Photo1 {
+    width: 175px;
+    height: 60px;
+    border-radius: 5%;
+    object-fit: fill;
+    border: 2px solid rgb(73, 86, 202);
+    display: flex;
+}
+}
